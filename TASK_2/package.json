@@ -1,0 +1,29 @@
+{
+  "name": "qa-eng-technical-challenge",
+  "version": "1.0.0",
+  "description": "Task2",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "DEBUG=pw:api playwright test --headed --project=Chrome",
+    "test:local:edge": "DEBUG=pw:api playwright test --headed --project=Edge",
+    "test:local:headless": "playwright test --project=Chrome",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamraborges/QAEng-tech_challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "allure-playwright": "^2.4.0",
+    "eslint": "^8.44.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.0"
+  }
+}
