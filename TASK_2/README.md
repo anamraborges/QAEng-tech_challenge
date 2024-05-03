@@ -1,7 +1,7 @@
 # QAEng-tech_challenge
 ## Description
 
-(descrever o objetivo do teste)
+This task_2 has 1 test to validate the negative path of enquiring the highest price at Mercedes-Benz.
 
 ## Setup
 
